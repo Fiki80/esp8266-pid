@@ -1,10 +1,10 @@
 name: esp8266-build
 
-on: push
+on: [push]
 
 jobs: 
   build:
-    runs_on: self-hosted
+    runs-on: self-hosted
     steps:
       - name: get_code
         uses: actions/checkout@v2
