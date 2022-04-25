@@ -20,8 +20,7 @@ void app_main()
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
-    printf("This is ESP8266 chip with %d CPU cores, WiFi, ",
-            chip_info.cores);
+    printf("This is ESP8266 chip with %d CPU cores, WiFi, ", chip_info.cores);
 
     printf("silicon revision %d, ", chip_info.revision);
 
